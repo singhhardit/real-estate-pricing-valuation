@@ -10,7 +10,7 @@ import matplotlib.ticker as mtick
 file1 = 'house_no_missing.csv'
 file2 ='house_with_missing.csv'
 
-#brief function describes data with 
+#brief function describes data  
 
 def brief(fName):
     data=pd.read_csv(fName)
